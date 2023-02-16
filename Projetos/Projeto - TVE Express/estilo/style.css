@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--FontPadrao);
+}
+
+:root {
+    --corFundo:#605898;
+    --corLetras:#ffffff;
+
+    --FontPadrao:'Poppins', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(45deg,#605898, #725E9C);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin-right: 120px;
+}
+
+nav {
+    padding: 20px;
+    margin: 22px 50px 0px 0px;
+}
+
+.menu {
+    padding: 13px;
+    margin-left: 10px;
+    color: var(--corLetras);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    transition-duration: 0.3s
+}
+
+.menu-botao {
+    padding:  13px 28px 13px 28px;
+    text-decoration: none;
+    color: #5E2CED;
+    border: 1px solid #5E2CED;
+    border-radius: 40px;
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 20px;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+}
+
+.menu:hover{
+    color: #5E2CED;
+    text-decoration: underline  #ffffff;
+    transition-duration: 0.3s
+}
+
+.menu-botao:hover{
+    background-color: #5E2CED;
+    color: #ffffff;
+    transition-duration: 0.3s;
+}
+
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 100px;
+    margin: 60px 20px 0px 110px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+img{
+    width: 520px;
+    padding-top: 35px;
+    margin-right: 20px;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: normal;
+    color: var(--corLetras);
+    line-height: 60px;
+}
+
+p{
+    color: var(--corLetras);
+    padding: 25px 0px 15px 0px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.conteudo-botao{
+    color: #5E2CED;
+    text-align: center;
+    width: 200px;
+    padding: 17px 20px 17px 20px;
+    margin:28px 0px 10px 0px;
+    text-decoration: none;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+aside{
+    display: flex;
+    gap: 43px;
+    margin-top: 28px;
+}
+.botao{
+    color: var(--corLetras);
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    padding: 9px 25px 9px 25px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    transition-duration: 0.3s;
+}
+
+.botao1{
+    color: var(--corLetras);
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    padding: 9px 25px 9px 25px;
+    border-radius: 15px ;
+    font-size: 14px;
+    font-weight: 300;
+    transition-duration: 0.3s;
+}
+
+.botao:hover{
+    color: #5E2CED;
+    background-color: #ffffff;
+    transition-duration: 0.3s;
+}
+
+.botao1:hover{
+    color: #5E2CED;
+    background-color: #ffffff;
+    transition-duration: 0.3s;
+}

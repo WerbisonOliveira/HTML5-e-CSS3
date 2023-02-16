@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+    <style>
+        body{
+            background-color: rgb(147, 218, 194);
+        }
+
+        #principal{
+            font-family: 'Times New Roman', Times, serif;
+            color: darkblue;
+            font-size: 2.5em;
+            text-align: center;
+        }
+
+        #secundario{
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(139, 0, 0);
+            font-size: 2em;
+            text-align: center;
+        }
+
+        .paragrafo{
+            text-align: justify;
+            font-family: 'Trebuchet MS', arial, sans-serif;
+            font-size: 1.2em;
+            text-indent: 20px;
+        }
+
+        .paragrafo::first-letter{
+            color: yellow;
+            font-size: 2em;
+        }
+
+        .paragrafo1{
+            text-align: justify;
+            font-family: 'Trebuchet MS', arial, sans-serif;
+            font-size: 1.2em;
+            text-indent: 20px;
+        }
+
+        .paragrafo1::first-line{
+            color: yellow;
+            text-decoration: underline;
+        }
+
+        .paragrafo1:hover::first-line{
+            color: #ffffff;
+        }
+
+        .paragrafo2{
+            text-align: center;
+        }
+
+        .paragrafo2::before{
+            content: 'Link com efeito: =>';
+            color: blue;
+        }
+
+        .paragrafo2::after{
+            content: '<=';
+            color: blue;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        #terciario{
+            color: rgb(163, 163, 0);
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1 id="principal">Pseudo-elementos</h1>
+        <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quam eaque illo laudantium non? Tenetur minima, voluptate laborum distinctio iusto earum atque id perspiciatis eius, dolores nemo nisi. Necessitatibus, sed! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus ipsa veritatis impedit architecto deleniti fugit totam praesentium officiis aliquid odio, dolorum exercitationem perspiciatis voluptates facere at cumque consequatur vero.</p>
+        <h2 id="secundario">Subtítulo</h2>
+        <p class="paragrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quae. Enim, voluptas voluptatem soluta porro quibusdam dolores hic a consequatur quod voluptates earum voluptate fugiat quis itaque ea deleniti animi? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas odio eaque, dolores perspiciatis asperiores quis sint nostrum temporibus maxime placeat voluptatibus consectetur repudiandae, beatae nisi aliquam impedit mollitia deserunt repellendus?</p>
+        <h2 id="terciario">Citações</h2>
+        <p class="paragrafo2"><a href="https://citacoes.in/" target="_blank" rel="external"><q>A melhor maneira de prever o futuro é criá-lo.</q></a></p>
+    </main>
+</body>
+</html>

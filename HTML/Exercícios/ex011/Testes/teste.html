@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando imagens flexíveis e áudios</title>
+</head>
+<body>
+    <h1>Testando imagens dinâmicas</h1>
+    <p>Abaixo &downarrow;, é possível visualizar as diferenças no tamanho da imagem de acordo com o dispositivo utilizado. </p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="../imagens/foto-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="../imagens/foto-m.png" type="image/png">
+        <img src="../imagens/foto-p.png" alt="Imagem flexível pequena">
+    </picture>
+    <hr>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="fotos/foto-g.jpg" type="image/jpg">
+        <source media="(min-width: 750px)" srcset="fotos/foto-m.jpg" type="image/jpg">
+        <img src="fotos/foto-p.jpg" alt="Imagem da natureza">
+    </picture>
+    <h1>Testando áudios em HTML5</h1>
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/monster-without-a-name-namae-no-nai-kaibutsu-eng-sub-romaji-kanji.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não reproduz áudios em mp3.</p>
+    </audio> <br>
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/synthetic_sympathy_who_ya_extended_psycho_pass_3_first_inspector_opening_theme_6420263211603124810.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não reproduz áudios em mp3.</p>
+    </audio> <br>
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/psyhco_pass_2_opening_1_full_enigmatic_feeling_-8061405983933514967.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não reproduz áudios em mp3.</p>
+    </audio>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Menu - Início, Sobre TVE, Revenda, Apps, Blog, Dúvidas Frequentes.  Botão - compre agora
+
+Título - Teste TVExpress grátis por 7 dias
+
+parágrafo - TVExpress é um aplicativo de TV online, para dispositivos Android, onde você tem acesso a mais de 400 canais nacionais e internacionais.
+
+botões - Compre agora, Baixe App Celular, Baixe App TV Box.
+
+fonte - Poppins
+
+Cor - #605898

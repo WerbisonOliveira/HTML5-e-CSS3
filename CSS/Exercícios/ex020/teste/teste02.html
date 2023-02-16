@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste 2</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        
+        div{
+            background-color: aquamarine;
+            height: 100px;
+            width: 100px;
+            text-align: center;
+            border-radius: 50%;
+            border: 1px solid black;
+            display: inline-block;
+        }
+
+        main{
+            background-color: black;
+            width: 100px;
+            padding: 5px;
+            border: 1px solid blue;
+        }
+
+        #primaria{
+                background-color: rgb(170, 4, 4);
+        }
+
+        #primaria:hover{
+            background-color: rgb(255, 0, 0);
+        }
+
+        .secundaria{
+            background-color: rgb(138, 138, 9);
+        }
+
+        .secundaria:hover{
+            background-color: yellow;
+        }
+
+        .terciaria{
+            background-color: rgb(0, 68, 0);
+        }
+
+        .terciaria:hover{
+            background-color: rgb(0, 253, 0);
+            animation-duration: 1ms;
+        }
+
+        a{  
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div id="primaria"></div> <br>
+        <div class="secundaria"></div> <br>
+        <div class="terciaria"></div>
+    </main>
+
+    <a href="teste.html">link personalizado</a>
+</body>
+</html>

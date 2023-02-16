@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando botão com efeito</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        body{
+            background-color: aqua;
+        }
+
+        #botão{
+            background-color: #8364AE;
+            width: 220px;
+            height: 55px;
+            border-style: none;
+            border-end-start-radius: 20px;
+            border-start-end-radius: 20px;
+            border-top-left-radius:  20px;
+            border-bottom-right-radius: 20px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            color: white;
+            transition-duration: 0.3s;
+            margin-top: 90px;
+
+        }
+
+        #botão:hover{
+            background-color: white;
+            color: #8364AE;
+            transition-delay: 0.1s;
+            transition-duration: 0.3s;
+            
+        }
+        #principal > h1{
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            margin-top: 20px;
+            margin: auto;
+        }
+
+        hr{
+            width: 200px;
+            height: 2px;
+            background-color: rgb(180, 6, 157);
+        }
+
+        li{
+            font-family: 'Poppins', sans-serif;
+            width: 120px;
+            display: inline-block;
+            margin:auto;
+            border-style: none;
+            border-radius: 5px;
+            text-align: center;
+            height: 25px;
+            font-weight: bold;
+            margin-left: 5px;
+            margin-bottom: 2px;
+        }
+        #principal{
+            background-color: rgb(168, 14, 14);
+            margin-top: 20px;
+        }
+
+        ul{
+            text-align: right;
+        }
+
+        .opção1{
+            margin-right: 15px;
+        }
+
+        .opção1 > .sub1{
+            display: none;
+        }
+
+        .opção1:hover{
+            color: white;
+        }
+
+
+        .opção2{
+            margin-right: 30px;
+        }
+
+        .opção2:hover{
+            color: white;
+        }
+
+        .opção3{
+            margin-right: 15px;
+        }
+
+        .opção3:hover{
+            color: white;
+        }
+
+        input{
+            border-color: white;
+            border-radius: 10px;
+            margin-left: 5px;
+        }
+
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        img{
+            width: 150px;
+            text-align: center;
+            margin-left: 570px;
+            height: 150px;
+            margin-top: 15px;
+
+        }
+
+        #secundario{
+            background-color: gray;
+            height: 700px;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+        }
+
+        .lançamentos{
+            margin-right: 600px;
+        }
+
+        .filmes{
+            margin-top: 400px;
+            margin-right: 690px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <img src="Imagem para o projeto.png" alt="Logo do site">
+        <p style="color: white;">Pesquise:<input type="search" name="lupa" id="pesquisar" placeholder="Pesquise..."></p>
+        <ul>
+            <li class="opção1">Home</li> 
+            <li class="opção2">Animes</li>
+            <li class="opção3">Lançamentos</li>
+        </ul>
+    </div>
+    <hr>
+    <main id="secundario">
+        <div>
+            <h1 class="lançamentos">Lançamentos</h1>
+            <h1 class="filmes">Filmes</h1>
+            <button id="botão">Botão</button>
+        </div>
+    </main>
+</body>
+</html>

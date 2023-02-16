@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to top,#84a8ec, #0b53da);
+    background-attachment: fixed;
+}
+
+h1{
+    font-weight: 600;
+    text-align: center;
+    color: rgb(189, 124, 4);
+}
+
+#principal{
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px rgba(153, 101, 4, 0.568);
+}
+
+#secundário{
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px rgba(153, 101, 4, 0.568);
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+main{
+    background-color: white;
+    width: 700px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(102, 129, 180, 0.603);
+}
+
+.basico{
+    color: rgb(168, 3, 3);
+    background-color: aquamarine;
+}
+
+.intermediario{
+    color: rgb(3, 33, 129);
+    background-color: rgb(226, 120, 120);
+}
+
+.avancado{
+    color: rgb(1, 148, 1);
+    background-color: rgb(253, 203, 111);
+}
