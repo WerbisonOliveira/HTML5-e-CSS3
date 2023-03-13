@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --font-titulo: 'passion one', cursive;
+    --font-texto: 'sriracha', cursive;
+    --font-padrao: Verdana, Geneva, Tahoma, sans-serif;;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: black;
+    padding: 50px;
+}
+
+header > h1 {
+    font: small-caps bold 10vw var(--font-titulo);
+    color: white;
+    text-align: center;
+}
+
+header > p {
+    font-family: var(--font-padrao);
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+
+header > p > a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+
+main > section > p {
+    font: 3.5vw/2em var(--font-texto);
+    padding-left: 30px;
+}
+
+main > section {
+    margin-top: 11vh;
+}
+
+    /* Contéudo - primeira imagem de fundo */
+
+main > .imagem {
+    background: rgb(54, 54, 54) url('../imagens/background001.jpg') right center no-repeat fixed;
+    background-size: cover;
+    padding: 25px;
+    box-shadow: inset 4px 5px 10px rgba(0, 0, 0, 0.507);
+    margin-top: 17vh;
+}
+
+main > .imagem > .conteudo {
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    line-height: 2em;
+    margin: 35px 0px 50px 5px;
+    padding: 5px;
+    width: 41vw;
+}
+
+    /* Conteúdo - segunda imagem de fundo */
+
+main > .imagem2 {
+    background: rgb(54, 54, 54) url('../imagens/background002.jpg') no-repeat fixed;
+    background-size: cover;
+    padding: 25px;
+    box-shadow: inset 4px 5px 10px rgba(0, 0, 0, 0.507);
+    margin-top: 17vh;
+}
+
+main > .imagem2 > .conteudo2 {
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    line-height: 2em;
+    margin: 40px 0px 50px 5px;
+    padding: 5px;
+    width: 42vw;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+}
+
+/* Rodapé */
+
+footer > p {
+    font-family: var(--font-padrao);
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 16vh;
+}
+
+footer > p > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
+
