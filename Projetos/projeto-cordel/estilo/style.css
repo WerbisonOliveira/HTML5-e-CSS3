@@ -23,7 +23,7 @@ header {
 }
 
 header > h1 {
-    font: small-caps bold 10vw var(--font-titulo);
+    font: small-caps bold 11vw var(--font-titulo);
     color: white;
     text-align: center;
 }
@@ -48,7 +48,7 @@ header > p > a:hover {
 /* Conteúdo principal */
 
 main > section > p {
-    font: 3.5vw/2em var(--font-texto);
+    font: 4vw/2em var(--font-texto);
     padding-left: 30px;
 }
 
@@ -72,7 +72,7 @@ main > .imagem > .conteudo {
     line-height: 2em;
     margin: 35px 0px 50px 5px;
     padding: 5px;
-    width: 41vw;
+    width: 50vw;
 }
 
     /* Conteúdo - segunda imagem de fundo */
@@ -91,7 +91,7 @@ main > .imagem2 > .conteudo2 {
     line-height: 2em;
     margin: 40px 0px 50px 5px;
     padding: 5px;
-    width: 42vw;
+    width: 48vw;
     text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
 
